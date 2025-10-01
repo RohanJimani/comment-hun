@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "email": "john.doe@techcorp.com",
+    "company": {
+      "name": "TechCorp Solutions"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@innovate.io",
+    "company": {
+      "name": "Innovate Technologies"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Mike Chen",
+    "email": "mike.chen@webdev.co",
+    "company": {
+      "name": "WebDev Co."
+    }
+  },
+  {
+    "id": "4",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@startup.xyz",
+    "company": {
+      "name": "StartupXYZ"
+    }
+  },
+  {
+    "id": "5",
+    "name": "David Rodriguez",
+    "email": "david.rodriguez@agency.net",
+    "company": {
+      "name": "Creative Agency"
+    }
+  }
+]
