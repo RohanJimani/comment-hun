@@ -6,11 +6,13 @@ const CommentCard = ({ comment }) => {
     <div className="comment-card">
       <div className="flex gap-4">
         {/* User Avatar */}
-        <div className="comment-card__avatar">{comment.initials}</div>
+        {/* <div className="comment-card__avatar">{comment.initials}</div> */}
 
         {/* Comment Content */}
         <div className="comment-card__content">
           <div className="comment-card__header">
+        <div className="comment-card__avatar">{comment.initials}</div>
+
             {/* User Info */}
             <div className="comment-card__user-info">
               <h3>{comment.userName}</h3>
@@ -26,8 +28,6 @@ const CommentCard = ({ comment }) => {
 
           {/* Footer Actions */}
           <div className="comment-card__footer">
-            <span>Like</span>
-            <span>Reply</span>
           </div>
         </div>
       </div>

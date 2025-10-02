@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import CommentCard from "./CommentCard";
 import "../styles/CommentList.css";
+import { Clock,Calendar } from "lucide-react";
+
 
 export const CommentList = ({ comments }) => {
   const [sortOrder, setSortOrder] = useState("newest");
@@ -23,7 +25,8 @@ export const CommentList = ({ comments }) => {
               sortOrder === "newest" ? "active" : ""
             }`}
           >
-            Newest
+            <Clock className="newest" />
+             Newest
           </button>
           <button
             onClick={() => setSortOrder("oldest")}
@@ -31,6 +34,7 @@ export const CommentList = ({ comments }) => {
               sortOrder === "oldest" ? "active" : ""
             }`}
           >
+            <Calendar className="newest" />
             Oldest
           </button>
         </div>

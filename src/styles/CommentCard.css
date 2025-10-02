@@ -1,9 +1,8 @@
 .comment-card {
-  
   border: 1px solid #e5e7eb; /* gray-200 */
   border-radius: 0.5rem; /* rounded-lg */
   padding: 1.5rem; /* p-6 */
-  width: 40rem;
+  width: 50rem;
   background-color: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
   transition: all 0.3s ease;
@@ -21,7 +20,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 9999px; /* rounded-full */
-  background-color: #6366f1; /* indigo-500 */
+  background-color: #18181b; /* indigo-500 */
   color: white;
   font-weight: 700;
   text-transform: uppercase;
@@ -31,13 +30,16 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; /* space-y-2 */
+  gap: 0.05rem; /* space-y-2 */
+
 }
 
 .comment-card__header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 1rem; /* gap-4 */
+  
+  
 }
 
 .comment-card__user-info h3 {
@@ -53,15 +55,17 @@
 
 .comment-card__company {
   font-size: 0.875rem; /* text-sm */
-  color: #9ca3af; /* gray-400 */
-  font-style: italic;
+  color: #737477; /* gray-400 */
   white-space: nowrap;
+  padding-left: 50%;
+  font-weight: 700;
 }
 
 .comment-card__text {
   color: #1f2937; /* gray-800 */
   line-height: 1.5;
   font-size: 0.875rem; /* text-sm */
+  padding-left: 4rem;
 }
 
 .comment-card__footer {

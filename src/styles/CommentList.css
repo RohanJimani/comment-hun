@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem; /* space-y-6 */
+  margin-left: 10px;
 }
 
 .comment-list__header {
@@ -19,6 +20,7 @@
 .comment-list__sort-buttons {
   display: flex;
   gap: 0.5rem; /* gap-2 */
+  
 }
 
 .comment-list__sort-button {
@@ -31,6 +33,11 @@
   transition: all 0.2s ease;
 }
 
+.newest{
+  height: 1rem;
+  width: 1rem;
+  padding-right: 10px;
+}
 .comment-list__sort-button.active {
   background-color: #2563eb; /* blue-600 */
   color: #ffffff;

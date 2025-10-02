@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/CommentForm.css";
+import { MessageSquare, Send } from "lucide-react";
+
 
 export const CommentForm = ({ users, onAddComment }) => {
   const [selectedUser, setSelectedUser] = useState("");
@@ -25,7 +27,7 @@ export const CommentForm = ({ users, onAddComment }) => {
 
   return (
     <div className="comment-form">
-      <h2>Add a Comment</h2>
+      <p> <MessageSquare className="h-5 w-5 text-primary" />  <b>Add a Comment</b></p>
       <form onSubmit={handleSubmit} className="comment-form__group">
         {/* Select User */}
         <div>
@@ -56,7 +58,7 @@ export const CommentForm = ({ users, onAddComment }) => {
         </div>
 
         <button type="submit" className="comment-form__button">
-          Post Comment
+            <Send className="send" /> Post Comment
         </button>
       </form>
     </div>

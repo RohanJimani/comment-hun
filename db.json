@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@techcorp.com",
+      "company": {
+        "name": "TechCorp Solutions"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@innovate.io",
+      "company": {
+        "name": "Innovate Technologies"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Mike Chen",
+      "email": "mike.chen@webdev.co",
+      "company": {
+        "name": "WebDev Co."
+      }
+    },
+    {
+      "id": "4",
+      "name": "Emma Wilson",
+      "email": "emma.wilson@startup.xyz",
+      "company": {
+        "name": "StartupXYZ"
+      }
+    },
+    {
+      "id": "5",
+      "name": "David Rodriguez",
+      "email": "david.rodriguez@agency.net",
+      "company": {
+        "name": "Creative Agency"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": "0f39",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "userEmail": "sarah.johnson@innovate.io",
+      "company": "Innovate Technologies",
+      "initials": "SJ",
+      "content": "Hello",
+      "timestamp": "2025-10-02T15:17:49.673Z"
+    },
+    {
+      "id": "48a1",
+      "userId": "2",
+      "userName": "Sarah Johnson",
+      "userEmail": "sarah.johnson@innovate.io",
+      "company": "Innovate Technologies",
+      "initials": "SJ",
+      "content": "Helo share your thoughts and engage with the community. Join the conversation\nbelow!",
+      "timestamp": "2025-10-02T15:33:37.317Z"
+    },
+    {
+      "id": "5764",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "john.doe@techcorp.com",
+      "company": "TechCorp Solutions",
+      "initials": "JD",
+      "content": "Hello",
+      "timestamp": "2025-10-02T15:34:01.347Z"
+    },
+    {
+      "id": "6440",
+      "userId": "1",
+      "userName": "John Doe",
+      "userEmail": "john.doe@techcorp.com",
+      "company": "TechCorp Solutions",
+      "initials": "JD",
+      "content": "bye!",
+      "timestamp": "2025-10-02T15:36:27.105Z"
+    }
+  ]
+}
